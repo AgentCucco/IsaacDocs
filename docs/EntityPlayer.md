@@ -53,6 +53,11 @@ ___
 [ ](#){: .abp .tooltip .badge }
 #### void AddCacheFlags ( [CacheFlag](../enums/CacheFlag) CacheFlag ) {: .copyable aria-label='Functions' }
 Will reevaluate the cache flags provided in the next cache reevaluation.
+???- example "Example Code"
+    This code will add several cacheflags.
+    ```lua 
+    Isaac.GetPlayer(0):AddBombs(CacheFlag.CACHE_DAMAGE | CacheFlag.CACHE_FIREDELAY | CacheFlag.CACHE_LUCK)
+    ```
 ___ 
 ### AddCard () {: aria-label='Functions' }
 [ ](#){: .abp .tooltip .badge }
