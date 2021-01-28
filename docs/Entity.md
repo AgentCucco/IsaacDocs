@@ -363,7 +363,7 @@ Set the colormask for the entity. This can be used to tint the sprites in differ
 ???- example "Example Code"
     This code changes the color of the sprite to a fully white sprite for 15 frames.
     ```lua 
-    entity:SetColor(Color(1,1,1,1,255,255,255),15,1,false,false)
+    entity:SetColor(Color(1, 1, 1, 1, 255, 255, 255), 15, 1, false, false)
     ```
 
 ___ 
