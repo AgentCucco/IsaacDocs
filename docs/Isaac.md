@@ -345,7 +345,7 @@ Returns the TrinketType of a trinket based on its name. (File: items.xml)
 ___ 
 ### Grid·Spawn () {: aria-label='Functions' }
 [ ](#){: .abp .tooltip .badge }
-#### [GridEntity](../GridEntity) GridSpawn ( [GridEntity](../GridEntity) gridEntityType, int Variant, [Vector](../Vector) position, boolean forced ) {: .copyable aria-label='Functions' }
+#### [GridEntity](../GridEntity) GridSpawn ( int gridEntityType, int Variant, [Vector](../Vector) position, boolean forced ) {: .copyable aria-label='Functions' }
 
 Spawn a [GridEntity](../GridEntity) at the given position (world coordinates).
 
